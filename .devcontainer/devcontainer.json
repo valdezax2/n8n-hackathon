@@ -1,0 +1,10 @@
+{
+  "name": "Fake CRM",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "postStartCommand": "nohup python app.py > /tmp/crm.log 2>&1 & sleep 3; gh codespace ports visibility 5050:public -c \"$CODESPACE_NAME\" || true",
+  "forwardPorts": [5050],
+  "portsAttributes": {
+    "5050": { "label": "Fake CRM", "onAutoForward": "openBrowser" }
+  }
+}
