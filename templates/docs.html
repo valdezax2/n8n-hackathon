@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}API · Fake CRM{% endblock %}
+{% block content %}
+<div class="card" style="margin-bottom:20px">
+  <h2 style="margin-top:0">REST API</h2>
+  <p>Base URL: <code>{{ base }}</code>. All responses are JSON. CORS is open.
+  {% if key %}Auth is <strong>on</strong>: send header <code>X-API-Key</code>.{% else %}Auth is <strong>off</strong> (set <code>CRM_API_KEY</code> env var to require an <code>X-API-Key</code> header).{% endif %}</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Method</th><th>Path</th><th>Description</th></tr></thead>
+    {% for d in docs %}<tr><td><span class="pill">{{ d.method }}</span></td><td><code>{{ d.path }}</code></td><td>{{ d.description }}</td></tr>{% endfor %}
+  </table></div>
+</div>
+<div class="card">
+  <h2 style="margin-top:0">Using it from n8n (HTTP Request node)</h2>
+  <p><strong>URL to use:</strong> n8n running in Docker cannot reach <code>localhost</code> on your Mac — use <code>http://host.docker.internal:5050</code>. n8n running natively (npx/desktop) can use <code>http://localhost:5050</code>. n8n Cloud needs a public tunnel (e.g. <code>ngrok http 5050</code>).</p>
+  <p><strong>Look up a caller by phone</strong> — Method GET, URL:</p>
+  <pre>http://host.docker.internal:5050/api/contacts?phone={{ '{{ $json.phone }}' }}</pre>
+  <p><strong>Log a conversation</strong> — Method POST, Body Content Type JSON, URL <code>/api/contacts/1/conversations</code>:</p>
+  <pre>{"channel": "Phone", "subject": "AI call", "summary": "Customer asked about renewal pricing.", "sentiment": "positive", "rep": "n8n bot"}</pre>
+  <p><strong>curl test</strong>:</p>
+  <pre>curl {{ base }}/api/contacts?limit=2&include_conversations=false</pre>
+</div>
+{% endblock %}

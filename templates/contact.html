@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{{ c.name }} · Fake CRM{% endblock %}
+{% block content %}
+<p><a href="/">← All contacts</a></p>
+<div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:20px">
+  <div class="card">
+    <h2 style="margin:0">{{ c.name }}</h2>
+    <p class="muted" style="margin:4px 0 12px">{{ c.role }} at {{ c.company }}</p>
+    <p><span class="pill s-{{ c.status }}">{{ c.status }}</span>{% for t in c.tags %}<span class="pill">{{ t }}</span>{% endfor %}</p>
+    <table>
+      <tr><td class="muted">Email</td><td>{{ c.email }}</td></tr>
+      <tr><td class="muted">Phone</td><td>{{ c.phone }}</td></tr>
+      <tr><td class="muted">Mobile</td><td>{{ c.mobile }}</td></tr>
+      <tr><td class="muted">Address</td><td>{{ c.address.street }}<br>{{ c.address.city }}, {{ c.address.state }} {{ c.address.zip }}<br>{{ c.address.country }}</td></tr>
+      <tr><td class="muted">Industry</td><td>{{ c.industry }} · {{ c.company_size }} employees</td></tr>
+      <tr><td class="muted">Website</td><td><a href="{{ c.website }}" target="_blank">{{ c.website }}</a></td></tr>
+      <tr><td class="muted">Deal value</td><td>{{ "${:,}".format(c.deal_value) }}</td></tr>
+      <tr><td class="muted">Owner</td><td>{{ c.owner }}</td></tr>
+      <tr><td class="muted">Source</td><td>{{ c.lead_source }}</td></tr>
+      <tr><td class="muted">Created</td><td>{{ c.created_at[:10] }}</td></tr>
+      <tr><td class="muted">API</td><td><a href="/api/contacts/{{ c.id }}">/api/contacts/{{ c.id }}</a></td></tr>
+    </table>
+  </div>
+  <div>
+    <div class="card" style="margin-bottom:20px">
+      <h3 style="margin-top:0">Log a conversation</h3>
+      <form id="convo" class="row">
+        <select name="channel">{% for ch in channels %}<option>{{ ch }}</option>{% endfor %}</select>
+        <input name="subject" placeholder="Subject" style="flex:1">
+        <select name="sentiment"><option>neutral</option><option>positive</option><option>negative</option></select>
+        <textarea name="summary" placeholder="Summary" required style="width:100%" rows="3"></textarea>
+        <button>Add</button>
+      </form>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Prior conversations ({{ c.conversations|length }})</h3>
+      {% for v in c.conversations %}
+        <div style="border-left:3px solid var(--accent);padding:4px 12px;margin-bottom:14px">
+          <div><strong>{{ v.subject }}</strong> · <span class="muted">{{ v.channel }} · {{ v.date.replace('T',' ') }} · {{ v.rep }}{% if v.duration_min %} · {{ v.duration_min }} min{% endif %}</span></div>
+          <div>{{ v.summary }}</div>
+          <div class="{{ v.sentiment }}" style="font-size:12px">{{ v.sentiment }}</div>
+        </div>
+      {% else %}<p class="muted">No conversations yet.</p>{% endfor %}
+    </div>
+  </div>
+</div>
+<script>
+document.getElementById('convo').addEventListener('submit', async e => {
+  e.preventDefault();
+  const body = Object.fromEntries(new FormData(e.target));
+  body.rep = 'Web UI';
+  const r = await fetch('/api/contacts/{{ c.id }}/conversations', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+  if (r.ok) location.reload(); else alert((await r.json()).error);
+});
+</script>
+{% endblock %}

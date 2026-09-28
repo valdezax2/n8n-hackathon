@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fake CRM</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1c2230; --muted:#6b7385; --line:#e3e6ec; --accent:#3a5bdc; --accent-soft:#e8edff;
+          --pos:#1f8a4c; --neg:#c43d3d; --neu:#8a8f9c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12151c; --card:#1b1f29; --text:#e6e8ee; --muted:#9097a8; --line:#2b3140; --accent:#7d97ff; --accent-soft:#252d48; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; background:var(--bg); color:var(--text); }
+  header { display:flex; align-items:center; gap:16px; padding:14px 20px; border-bottom:1px solid var(--line); background:var(--card); position:sticky; top:0; z-index:2; flex-wrap:wrap; }
+  header h1 { font-size:17px; margin:0; }
+  header .stats { display:flex; gap:18px; color:var(--muted); font-size:13px; }
+  header .stats b { color:var(--text); font-variant-numeric:tabular-nums; }
+  header .spacer { flex:1; }
+  a { color:var(--accent); }
+  button, input, select { font:inherit; color:inherit; }
+  button { background:var(--accent); color:#fff; border:0; border-radius:6px; padding:7px 12px; cursor:pointer; }
+  button.ghost { background:transparent; color:var(--text); border:1px solid var(--line); }
+  input, select { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:7px 10px; }
+  main { display:grid; grid-template-columns: minmax(0,1fr) 440px; gap:16px; padding:16px 20px; }
+  @media (max-width: 960px) { main { grid-template-columns: 1fr; } }
+  .toolbar { display:flex; gap:8px; margin-bottom:12px; flex-wrap:wrap; }
+  .toolbar input { flex:1; min-width:180px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th { font-size:12px; color:var(--muted); font-weight:600; cursor:pointer; user-select:none; }
+  tbody tr { cursor:pointer; }
+  tbody tr:hover, tbody tr.sel { background:var(--accent-soft); }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .tablewrap { overflow-x:auto; }
+  .sub { color:var(--muted); font-size:12px; }
+  .pill { display:inline-block; padding:1px 8px; border-radius:99px; font-size:12px; background:var(--accent-soft); color:var(--accent); }
+  .tag { display:inline-block; padding:0 6px; margin:0 4px 4px 0; border:1px solid var(--line); border-radius:4px; font-size:12px; color:var(--muted); }
+  .detail { padding:18px; position:sticky; top:72px; max-height:calc(100vh - 90px); overflow:auto; }
+  .detail h2 { margin:0 0 2px; font-size:19px; }
+  .kv { display:grid; grid-template-columns:110px 1fr; gap:6px 10px; margin:14px 0; }
+  .kv div:nth-child(odd) { color:var(--muted); }
+  .convo { border-left:3px solid var(--neu); padding:6px 0 6px 12px; margin:10px 0; }
+  .convo.positive { border-color:var(--pos); } .convo.negative { border-color:var(--neg); }
+  .convo .head { display:flex; justify-content:space-between; gap:8px; font-size:12px; color:var(--muted); }
+  .convo b { display:block; margin:2px 0; }
+  .empty { color:var(--muted); padding:40px; text-align:center; }
+  .pager { display:flex; justify-content:space-between; align-items:center; padding:10px 12px; color:var(--muted); }
+  form.log { display:grid; gap:6px; margin-top:10px; }
+  form.log .row { display:flex; gap:6px; } form.log .row > * { flex:1; }
+  code { background:var(--accent-soft); padding:1px 5px; border-radius:4px; font-size:12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fake CRM</h1>
+  <div class="stats" id="stats"></div>
+  <div class="spacer"></div>
+  <a href="/api" target="_blank">API docs</a>
+  <button class="ghost" onclick="regen()">Regenerate data</button>
+</header>
+<main>
+  <section>
+    <div class="toolbar">
+      <input id="q" placeholder="Search name, email, company, role, city…">
+      <select id="status"><option value="">All statuses</option><option>Lead</option><option>Prospect</option><option>Qualified</option><option>Customer</option><option>Churned</option></select>
+      <button onclick="addContact()">+ Fake contact</button>
+    </div>
+    <div class="card">
+      <div class="tablewrap"><table>
+        <thead><tr>
+          <th data-sort="name">Name</th><th data-sort="company">Company</th><th data-sort="role">Role</th>
+          <th data-sort="phone">Phone</th><th data-sort="status">Status</th><th data-sort="deal_value" class="num">Deal</th><th data-sort="last_contacted">Last contact</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table></div>
+      <div class="pager"><span id="count"></span><span><button class="ghost" id="prev">Prev</button> <button class="ghost" id="next">Next</button></span></div>
+    </div>
+  </section>
+  <aside class="card detail" id="detail"><div class="empty">Select a contact to see details and conversation history.</div></aside>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const money = n => n ? '$' + n.toLocaleString() : '—';
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let state = { offset: 0, limit: 25, sort: 'id', order: 'asc', selected: null };
+
+async function api(path, opts = {}) {
+  const r = await fetch('/api' + path, { headers: {'Content-Type': 'application/json'}, ...opts });
+  return r.json();
+}
+
+async function loadStats() {
+  const s = await api('/stats');
+  $('#stats').innerHTML = `<span><b>${s.contacts}</b> contacts</span><span><b>${s.conversations}</b> conversations</span><span><b>${money(s.pipeline_value)}</b> pipeline</span>`;
+}
+
+async function loadList() {
+  const p = new URLSearchParams({ q: $('#q').value, status: $('#status').value, sort: state.sort, order: state.order,
+                                  offset: state.offset, limit: state.limit, include_conversations: 'false' });
+  const res = await api('/contacts?' + p);
+  $('#rows').innerHTML = res.data.map(c => `
+    <tr data-id="${c.id}" class="${c.id === state.selected ? 'sel' : ''}">
+      <td>${esc(c.name)}<div class="sub">${esc(c.email)}</div></td>
+      <td>${esc(c.company)}<div class="sub">${esc(c.industry)}</div></td>
+      <td>${esc(c.role)}</td><td>${esc(c.phone)}</td>
+      <td><span class="pill">${esc(c.status)}</span></td>
+      <td class="num">${money(c.deal_value)}</td>
+      <td>${esc(c.last_contacted.replace('T', ' '))}</td>
+    </tr>`).join('') || '<tr><td colspan="7" class="empty">No matches</td></tr>';
+  const end = Math.min(res.offset + res.limit, res.total);
+  $('#count').textContent = res.total ? `${res.offset + 1}–${end} of ${res.total}` : '0 results';
+  $('#prev').disabled = res.offset === 0;
+  $('#next').disabled = end >= res.total;
+}
+
+async function showContact(id) {
+  state.selected = id;
+  document.querySelectorAll('#rows tr').forEach(tr => tr.classList.toggle('sel', +tr.dataset.id === id));
+  const c = await api('/contacts/' + id);
+  const a = c.address;
+  $('#detail').innerHTML = `
+    <h2>${esc(c.name)}</h2>
+    <div class="sub">${esc(c.role)} · ${esc(c.company)}</div>
+    <div style="margin-top:8px">${c.tags.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+    <div class="kv">
+      <div>Email</div><div><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></div>
+      <div>Phone</div><div>${esc(c.phone)}</div>
+      <div>Mobile</div><div>${esc(c.mobile)}</div>
+      <div>Address</div><div>${esc(a.street)}<br>${esc(a.city)}, ${esc(a.state)} ${esc(a.zip)}<br>${esc(a.country)}</div>
+      <div>Company</div><div>${esc(c.company)} · ${esc(c.company_size)} employees<br><a href="${esc(c.website)}" target="_blank">${esc(c.website)}</a></div>
+      <div>Status</div><div><span class="pill">${esc(c.status)}</span> · ${money(c.deal_value)}</div>
+      <div>Owner</div><div>${esc(c.owner)}</div>
+      <div>Source</div><div>${esc(c.lead_source)}</div>
+      <div>Created</div><div>${esc(c.created_at.slice(0, 10))}</div>
+      <div>API</div><div><a href="/api/contacts/${c.id}" target="_blank"><code>GET /api/contacts/${c.id}</code></a></div>
+    </div>
+    <h3 style="margin:18px 0 4px;font-size:15px">Conversations (${c.conversations.length})</h3>
+    <form class="log" onsubmit="logConvo(event, ${c.id})">
+      <div class="row">
+        <select name="channel"><option>Email</option><option>Phone</option><option>Meeting</option><option>Video Call</option><option>Chat</option></select>
+        <select name="sentiment"><option>neutral</option><option>positive</option><option>negative</option></select>
+      </div>
+      <input name="subject" placeholder="Subject" required>
+      <input name="summary" placeholder="What was discussed?" required>
+      <button>Log conversation</button>
+    </form>
+    ${c.conversations.map(v => `
+      <div class="convo ${esc(v.sentiment)}">
+        <div class="head"><span>${esc(v.date.replace('T', ' '))} · ${esc(v.channel)}</span><span>${esc(v.rep)}</span></div>
+        <b>${esc(v.subject)}</b><div>${esc(v.summary)}</div>
+      </div>`).join('')}`;
+}
+
+async function logConvo(e, id) {
+  e.preventDefault();
+  await api(`/contacts/${id}/conversations`, { method: 'POST', body: JSON.stringify(Object.fromEntries(new FormData(e.target))) });
+  showContact(id); loadList(); loadStats();
+}
+
+async function addContact() {
+  const c = await api('/contacts', { method: 'POST', body: '{}' });
+  state.sort = 'id'; state.order = 'desc'; state.offset = 0;
+  await loadList(); loadStats(); showContact(c.id);
+}
+
+async function regen() {
+  const n = prompt('How many contacts to generate?', '50');
+  if (!n) return;
+  await api('/generate', { method: 'POST', body: JSON.stringify({ count: +n }) });
+  state.offset = 0; state.selected = null;
+  $('#detail').innerHTML = '<div class="empty">Select a contact to see details and conversation history.</div>';
+  loadList(); loadStats();
+}
+
+$('#rows').addEventListener('click', e => { const tr = e.target.closest('tr[data-id]'); if (tr) showContact(+tr.dataset.id); });
+document.querySelectorAll('th[data-sort]').forEach(th => th.onclick = () => {
+  state.order = state.sort === th.dataset.sort && state.order === 'asc' ? 'desc' : 'asc';
+  state.sort = th.dataset.sort; loadList();
+});
+let t; $('#q').oninput = () => { clearTimeout(t); t = setTimeout(() => { state.offset = 0; loadList(); }, 200); };
+$('#status').onchange = () => { state.offset = 0; loadList(); };
+$('#prev').onclick = () => { state.offset = Math.max(0, state.offset - state.limit); loadList(); };
+$('#next').onclick = () => { state.offset += state.limit; loadList(); };
+loadList(); loadStats();
+</script>
+</body>
+</html>

@@ -1,0 +1,3862 @@
+[
+  {
+    "id": 1,
+    "name": "Hannah Khan",
+    "first_name": "Hannah",
+    "last_name": "Khan",
+    "email": "hannah.khan@bluelabs.com",
+    "phone": "+1 (328) 587-2291",
+    "mobile": "+1 (766) 500-6925",
+    "role": "Product Manager",
+    "company": "Blue Labs Group",
+    "industry": "Biotech",
+    "company_size": "11-50",
+    "website": "https://www.bluelabs.com",
+    "address": {
+      "street": "1149 Main St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60694",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Partner",
+    "deal_value": 0,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "enterprise",
+      "at-risk"
+    ],
+    "linkedin": "https://linkedin.com/in/hannah-khan-266",
+    "created_at": "2025-12-14T16:32:39",
+    "last_contacted": "2026-09-20T09:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "977ceffe",
+        "date": "2026-09-20T09:45",
+        "channel": "Phone",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about data syncing integration.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 50
+      },
+      {
+        "id": "067b30d8",
+        "date": "2026-07-17T11:45",
+        "channel": "Chat",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on API access. Promised a call with the account manager.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 14
+      },
+      {
+        "id": "587c12f2",
+        "date": "2026-06-05T09:00",
+        "channel": "Video Call",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 39
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Yuki Tanaka",
+    "first_name": "Yuki",
+    "last_name": "Tanaka",
+    "email": "yuki.tanaka@apexmanufacturing.com",
+    "phone": "+1 (859) 669-3340",
+    "mobile": "+1 (472) 342-5040",
+    "role": "Founder",
+    "company": "Apex Manufacturing Group",
+    "industry": "Manufacturing",
+    "company_size": "1000+",
+    "website": "https://www.apexmanufacturing.com",
+    "address": {
+      "street": "8840 Pine St",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97284",
+      "country": "USA"
+    },
+    "status": "Customer",
+    "lead_source": "Cold Call",
+    "deal_value": 94000,
+    "owner": "Alex Rivera",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/yuki-tanaka-981",
+    "created_at": "2024-08-30T16:32:39",
+    "last_contacted": "2026-06-12T10:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "a921953c",
+        "date": "2026-06-12T10:15",
+        "channel": "Email",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced customer support features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 58
+      },
+      {
+        "id": "87ecf520",
+        "date": "2025-04-22T08:30",
+        "channel": "Video Call",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around API access. Interested in a follow-up demo.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Aisha Rodriguez",
+    "first_name": "Aisha",
+    "last_name": "Rodriguez",
+    "email": "aisha.rodriguez@pioneeranalytics.com",
+    "phone": "+1 (753) 335-8744",
+    "mobile": "+1 (449) 684-7669",
+    "role": "VP of Sales",
+    "company": "Pioneer Analytics Co.",
+    "industry": "Technology",
+    "company_size": "1-10",
+    "website": "https://www.pioneeranalytics.com",
+    "address": {
+      "street": "1598 2nd Ave",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85065",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Trade Show",
+    "deal_value": 188000,
+    "owner": "Alex Rivera",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/aisha-rodriguez-512",
+    "created_at": "2026-05-26T16:32:39",
+    "last_contacted": "2026-09-25T09:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "121fbd60",
+        "date": "2026-09-25T09:00",
+        "channel": "Video Call",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced invoicing features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 40
+      },
+      {
+        "id": "4611a2c5",
+        "date": "2026-09-01T10:00",
+        "channel": "Chat",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 12% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 20
+      },
+      {
+        "id": "7cfc865b",
+        "date": "2026-08-25T08:15",
+        "channel": "Phone",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about data syncing integration.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 18
+      },
+      {
+        "id": "8ad2b141",
+        "date": "2026-08-11T15:30",
+        "channel": "Chat",
+        "subject": "Renewal",
+        "summary": "Renewal due in 78 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 12
+      },
+      {
+        "id": "167aa40e",
+        "date": "2026-07-23T09:15",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on invoicing. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 5
+      },
+      {
+        "id": "a1fa1d01",
+        "date": "2026-07-21T10:45",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with API access. Escalated to support, ticket #3927.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 14
+      },
+      {
+        "id": "5cf220a9",
+        "date": "2026-06-29T16:45",
+        "channel": "Email",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 198 seats; requested a discount.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 33
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ravi Brown",
+    "first_name": "Ravi",
+    "last_name": "Brown",
+    "email": "ravi.brown@atlasnetworks.com",
+    "phone": "+1 (391) 270-2113",
+    "mobile": "+1 (892) 440-7615",
+    "role": "CTO",
+    "company": "Atlas Networks Inc.",
+    "industry": "Telecom",
+    "company_size": "1000+",
+    "website": "https://www.atlasnetworks.com",
+    "address": {
+      "street": "4043 Sunset Blvd",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60686",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Cold Call",
+    "deal_value": 170000,
+    "owner": "Sam Patel",
+    "tags": [
+      "needs-demo",
+      "at-risk"
+    ],
+    "linkedin": "https://linkedin.com/in/ravi-brown-344",
+    "created_at": "2026-01-15T16:32:39",
+    "last_contacted": "2026-09-25T14:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "5a61af81",
+        "date": "2026-09-25T14:30",
+        "channel": "Video Call",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around API access. Interested in a follow-up demo.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 42
+      },
+      {
+        "id": "91b28c25",
+        "date": "2026-08-18T08:00",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on onboarding. Promised a call with the account manager.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 29
+      },
+      {
+        "id": "d8348bc3",
+        "date": "2026-05-10T10:45",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on API access. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 8
+      },
+      {
+        "id": "89c47d1d",
+        "date": "2026-01-31T13:00",
+        "channel": "Phone",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on analytics. Promised a call with the account manager.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 59
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Noah Williams",
+    "first_name": "Noah",
+    "last_name": "Williams",
+    "email": "noah.williams@novamanufacturing.com",
+    "phone": "+1 (961) 766-3546",
+    "mobile": "+1 (479) 488-4450",
+    "role": "Founder",
+    "company": "Nova Manufacturing Group",
+    "industry": "Manufacturing",
+    "company_size": "51-200",
+    "website": "https://www.novamanufacturing.com",
+    "address": {
+      "street": "3345 2nd Ave",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30391",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Cold Call",
+    "deal_value": 0,
+    "owner": "Alex Rivera",
+    "tags": [
+      "renewal",
+      "high-value",
+      "smb"
+    ],
+    "linkedin": "https://linkedin.com/in/noah-williams-441",
+    "created_at": "2025-09-10T16:32:39",
+    "last_contacted": "2026-05-03T17:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "03045bda",
+        "date": "2026-05-03T17:00",
+        "channel": "Phone",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around lead routing. Interested in a follow-up demo.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 28
+      },
+      {
+        "id": "c08131aa",
+        "date": "2025-11-30T15:30",
+        "channel": "Chat",
+        "subject": "Support issue",
+        "summary": "Reported a problem with lead routing. Escalated to support, ticket #5905.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 11
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Grace Rodriguez",
+    "first_name": "Grace",
+    "last_name": "Rodriguez",
+    "email": "grace.rodriguez@pioneerenergy.com",
+    "phone": "+1 (539) 838-6143",
+    "mobile": "+1 (880) 327-5920",
+    "role": "IT Director",
+    "company": "Pioneer Energy LLC",
+    "industry": "Energy",
+    "company_size": "51-200",
+    "website": "https://www.pioneerenergy.com",
+    "address": {
+      "street": "6701 Elm St",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97261",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Cold Call",
+    "deal_value": 51000,
+    "owner": "Jordan Lee",
+    "tags": [
+      "upsell",
+      "smb"
+    ],
+    "linkedin": "https://linkedin.com/in/grace-rodriguez-953",
+    "created_at": "2025-05-04T16:32:39",
+    "last_contacted": "2026-09-16T10:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "45fefbb5",
+        "date": "2026-09-16T10:45",
+        "channel": "Phone",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 193 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 55
+      },
+      {
+        "id": "c8c4abde",
+        "date": "2026-02-26T12:00",
+        "channel": "Phone",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 116 seats; requested a discount.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 29
+      },
+      {
+        "id": "a74047c4",
+        "date": "2025-11-25T13:30",
+        "channel": "Phone",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 21
+      },
+      {
+        "id": "9767e50d",
+        "date": "2025-11-16T08:45",
+        "channel": "Email",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about reporting integration.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 47
+      },
+      {
+        "id": "d754cc64",
+        "date": "2025-11-07T08:30",
+        "channel": "Email",
+        "subject": "Support issue",
+        "summary": "Reported a problem with reporting. Escalated to support, ticket #2684.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 20
+      },
+      {
+        "id": "8c90b3c0",
+        "date": "2025-08-10T12:00",
+        "channel": "Video Call",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced data syncing features. Will discuss internally.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 47
+      },
+      {
+        "id": "a106bf5e",
+        "date": "2025-05-09T09:00",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on lead routing. Promised a call with the account manager.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 7
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "James Ali",
+    "first_name": "James",
+    "last_name": "Ali",
+    "email": "james.ali@greenfoods.com",
+    "phone": "+1 (355) 436-7275",
+    "mobile": "+1 (911) 356-4505",
+    "role": "CTO",
+    "company": "Green Foods Co.",
+    "industry": "Food & Beverage",
+    "company_size": "201-1000",
+    "website": "https://www.greenfoods.com",
+    "address": {
+      "street": "6688 Elm St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85079",
+      "country": "USA"
+    },
+    "status": "Customer",
+    "lead_source": "Trade Show",
+    "deal_value": 101000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "enterprise",
+      "high-value",
+      "at-risk"
+    ],
+    "linkedin": "https://linkedin.com/in/james-ali-405",
+    "created_at": "2024-11-16T16:32:39",
+    "last_contacted": "2026-08-06T16:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "00859df3",
+        "date": "2026-08-06T16:45",
+        "channel": "Chat",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their operations team.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 58
+      },
+      {
+        "id": "c4014bf6",
+        "date": "2026-05-04T15:15",
+        "channel": "Meeting",
+        "subject": "Support issue",
+        "summary": "Reported a problem with customer support. Escalated to support, ticket #5681.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 13
+      },
+      {
+        "id": "fc19765a",
+        "date": "2026-03-07T08:15",
+        "channel": "Phone",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on customer support. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 53
+      },
+      {
+        "id": "27a45a24",
+        "date": "2026-02-12T15:15",
+        "channel": "Chat",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their legal team.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 10
+      },
+      {
+        "id": "964b0265",
+        "date": "2025-09-30T11:15",
+        "channel": "Email",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 45
+      },
+      {
+        "id": "a9e932d4",
+        "date": "2025-06-04T14:45",
+        "channel": "Video Call",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced reporting features. Will discuss internally.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 56
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Grace Williams",
+    "first_name": "Grace",
+    "last_name": "Williams",
+    "email": "grace.williams@vertexpartners.com",
+    "phone": "+1 (318) 777-4571",
+    "mobile": "+1 (677) 916-5198",
+    "role": "COO",
+    "company": "Vertex Partners Co.",
+    "industry": "Consulting",
+    "company_size": "51-200",
+    "website": "https://www.vertexpartners.com",
+    "address": {
+      "street": "2759 Sunset Blvd",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94187",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Partner",
+    "deal_value": 248000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "technical",
+      "upsell"
+    ],
+    "linkedin": "https://linkedin.com/in/grace-williams-506",
+    "created_at": "2024-06-25T16:32:39",
+    "last_contacted": "2026-09-03T08:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "39585510",
+        "date": "2026-09-03T08:00",
+        "channel": "Email",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about reporting integration.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 47
+      },
+      {
+        "id": "8d670502",
+        "date": "2025-05-26T13:45",
+        "channel": "Meeting",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their executive team.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 19
+      },
+      {
+        "id": "6c5e34d3",
+        "date": "2025-02-05T12:45",
+        "channel": "Video Call",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their IT team.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 44
+      },
+      {
+        "id": "d2288bf2",
+        "date": "2024-07-23T14:00",
+        "channel": "Phone",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on inventory tracking. Promised a call with the account manager.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 18
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Isabella Johnson",
+    "first_name": "Isabella",
+    "last_name": "Johnson",
+    "email": "isabella.johnson@summitmedia.com",
+    "phone": "+1 (502) 426-7625",
+    "mobile": "+1 (909) 449-6016",
+    "role": "Office Manager",
+    "company": "Summit Media LLC",
+    "industry": "Media",
+    "company_size": "1000+",
+    "website": "https://www.summitmedia.com",
+    "address": {
+      "street": "6056 Lakeview Rd",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33180",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "LinkedIn",
+    "deal_value": 86000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "renewal",
+      "technical"
+    ],
+    "linkedin": "https://linkedin.com/in/isabella-johnson-336",
+    "created_at": "2024-08-16T16:32:39",
+    "last_contacted": "2026-09-04T17:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "dd3eaf1b",
+        "date": "2026-09-04T17:30",
+        "channel": "Meeting",
+        "subject": "Renewal",
+        "summary": "Renewal due in 67 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 26
+      },
+      {
+        "id": "72f80bc8",
+        "date": "2026-01-28T11:00",
+        "channel": "Email",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around inventory tracking. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 10
+      },
+      {
+        "id": "db3880e0",
+        "date": "2026-01-05T13:15",
+        "channel": "Video Call",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around reporting. Interested in a follow-up demo.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 40
+      },
+      {
+        "id": "05edfc6e",
+        "date": "2024-12-18T17:00",
+        "channel": "Meeting",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced lead routing features. Will discuss internally.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 57
+      },
+      {
+        "id": "0da3a3df",
+        "date": "2024-12-03T14:30",
+        "channel": "Video Call",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their legal team.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 34
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Aisha Sharma",
+    "first_name": "Aisha",
+    "last_name": "Sharma",
+    "email": "aisha.sharma@apexsoftware.com",
+    "phone": "+1 (276) 790-1878",
+    "mobile": "+1 (356) 352-5978",
+    "role": "CTO",
+    "company": "Apex Software Inc.",
+    "industry": "Technology",
+    "company_size": "11-50",
+    "website": "https://www.apexsoftware.com",
+    "address": {
+      "street": "1950 Market St",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97263",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Cold Call",
+    "deal_value": 160000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "renewal",
+      "upsell",
+      "technical"
+    ],
+    "linkedin": "https://linkedin.com/in/aisha-sharma-682",
+    "created_at": "2025-01-28T16:32:39",
+    "last_contacted": "2026-05-24T15:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "5162f511",
+        "date": "2026-05-24T15:45",
+        "channel": "Meeting",
+        "subject": "Support issue",
+        "summary": "Reported a problem with onboarding. Escalated to support, ticket #5136.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 36
+      },
+      {
+        "id": "935e8c2d",
+        "date": "2025-09-07T15:30",
+        "channel": "Chat",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 16
+      },
+      {
+        "id": "d4575a49",
+        "date": "2025-02-12T16:15",
+        "channel": "Meeting",
+        "subject": "Support issue",
+        "summary": "Reported a problem with data syncing. Escalated to support, ticket #5786.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 41
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Diego Garcia",
+    "first_name": "Diego",
+    "last_name": "Garcia",
+    "email": "diego.garcia@quantumlabs.com",
+    "phone": "+1 (531) 818-5102",
+    "mobile": "+1 (227) 293-4750",
+    "role": "Office Manager",
+    "company": "Quantum Labs Inc.",
+    "industry": "Biotech",
+    "company_size": "1000+",
+    "website": "https://www.quantumlabs.com",
+    "address": {
+      "street": "9629 Main St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60696",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Cold Call",
+    "deal_value": 195000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "budget-approved",
+      "upsell"
+    ],
+    "linkedin": "https://linkedin.com/in/diego-garcia-750",
+    "created_at": "2024-10-28T16:32:39",
+    "last_contacted": "2026-09-05T09:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "a7dd1fc7",
+        "date": "2026-09-05T09:15",
+        "channel": "Email",
+        "subject": "Support issue",
+        "summary": "Reported a problem with onboarding. Escalated to support, ticket #2229.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 23
+      },
+      {
+        "id": "c5e904c6",
+        "date": "2026-05-09T11:15",
+        "channel": "Meeting",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about onboarding integration.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 33
+      },
+      {
+        "id": "024d0fb7",
+        "date": "2026-02-20T12:45",
+        "channel": "Meeting",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about lead routing integration.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 52
+      },
+      {
+        "id": "9255b91e",
+        "date": "2025-06-23T12:30",
+        "channel": "Video Call",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around invoicing. Interested in a follow-up demo.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 32
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Mia Hassan",
+    "first_name": "Mia",
+    "last_name": "Hassan",
+    "email": "mia.hassan@summitcapital.com",
+    "phone": "+1 (802) 793-9022",
+    "mobile": "+1 (353) 657-9824",
+    "role": "Procurement Lead",
+    "company": "Summit Capital Group",
+    "industry": "Finance",
+    "company_size": "51-200",
+    "website": "https://www.summitcapital.com",
+    "address": {
+      "street": "5456 Market St",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02179",
+      "country": "USA"
+    },
+    "status": "Customer",
+    "lead_source": "Trade Show",
+    "deal_value": 0,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "upsell"
+    ],
+    "linkedin": "https://linkedin.com/in/mia-hassan-144",
+    "created_at": "2025-08-23T16:32:39",
+    "last_contacted": "2026-09-10T10:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "6aff2b0e",
+        "date": "2026-09-10T10:00",
+        "channel": "Meeting",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on inventory tracking. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 58
+      },
+      {
+        "id": "ae6d3b58",
+        "date": "2026-07-10T15:00",
+        "channel": "Email",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their operations team.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 45
+      },
+      {
+        "id": "a13c748c",
+        "date": "2026-05-06T12:30",
+        "channel": "Video Call",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 125 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 43
+      },
+      {
+        "id": "257cd658",
+        "date": "2026-02-05T09:45",
+        "channel": "Chat",
+        "subject": "Support issue",
+        "summary": "Reported a problem with data syncing. Escalated to support, ticket #9889.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 44
+      },
+      {
+        "id": "b53644d9",
+        "date": "2025-12-24T10:30",
+        "channel": "Chat",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced data syncing features. Will discuss internally.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 46
+      },
+      {
+        "id": "aca04fc5",
+        "date": "2025-11-14T13:45",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about API access integration.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 25
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Ethan Sharma",
+    "first_name": "Ethan",
+    "last_name": "Sharma",
+    "email": "ethan.sharma@silverlabs.com",
+    "phone": "+1 (258) 500-6873",
+    "mobile": "+1 (584) 641-3385",
+    "role": "VP of Sales",
+    "company": "Silver Labs Co.",
+    "industry": "Biotech",
+    "company_size": "1000+",
+    "website": "https://www.silverlabs.com",
+    "address": {
+      "street": "6761 Sunset Blvd",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02197",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Referral",
+    "deal_value": 158000,
+    "owner": "Jordan Lee",
+    "tags": [
+      "technical",
+      "budget-approved",
+      "needs-demo"
+    ],
+    "linkedin": "https://linkedin.com/in/ethan-sharma-572",
+    "created_at": "2024-09-19T16:32:39",
+    "last_contacted": "2025-06-18T13:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "ab8e870a",
+        "date": "2025-06-18T13:45",
+        "channel": "Phone",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their operations team.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 44
+      },
+      {
+        "id": "4ea08cf3",
+        "date": "2025-05-18T12:15",
+        "channel": "Phone",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about inventory tracking integration.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 25
+      },
+      {
+        "id": "45e3c86a",
+        "date": "2024-10-27T10:30",
+        "channel": "Phone",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their IT team.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 9
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Hannah Nguyen",
+    "first_name": "Hannah",
+    "last_name": "Nguyen",
+    "email": "hannah.nguyen@silverenergy.com",
+    "phone": "+1 (652) 234-6977",
+    "mobile": "+1 (950) 334-2476",
+    "role": "Head of Partnerships",
+    "company": "Silver Energy Inc.",
+    "industry": "Energy",
+    "company_size": "51-200",
+    "website": "https://www.silverenergy.com",
+    "address": {
+      "street": "5362 Park Pl",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30363",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Referral",
+    "deal_value": 35000,
+    "owner": "Sam Patel",
+    "tags": [
+      "renewal"
+    ],
+    "linkedin": "https://linkedin.com/in/hannah-nguyen-944",
+    "created_at": "2025-10-09T16:32:39",
+    "last_contacted": "2026-05-24T13:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "c02f3d4d",
+        "date": "2026-05-24T13:30",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about API access integration.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 29
+      },
+      {
+        "id": "634c682b",
+        "date": "2026-04-11T17:30",
+        "channel": "Meeting",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced data syncing features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 43
+      },
+      {
+        "id": "f681ee45",
+        "date": "2026-03-05T11:30",
+        "channel": "Email",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their finance team.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 24
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Omar Dubois",
+    "first_name": "Omar",
+    "last_name": "Dubois",
+    "email": "omar.dubois@greenlabs.com",
+    "phone": "+1 (510) 864-7689",
+    "mobile": "+1 (320) 343-1742",
+    "role": "CEO",
+    "company": "Green Labs Group",
+    "industry": "Biotech",
+    "company_size": "51-200",
+    "website": "https://www.greenlabs.com",
+    "address": {
+      "street": "8081 Oak Ave",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33122",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Cold Call",
+    "deal_value": 96000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "upsell"
+    ],
+    "linkedin": "https://linkedin.com/in/omar-dubois-770",
+    "created_at": "2025-04-07T16:32:39",
+    "last_contacted": "2026-04-23T09:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "e7c22615",
+        "date": "2026-04-23T09:15",
+        "channel": "Video Call",
+        "subject": "Renewal",
+        "summary": "Renewal due in 38 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 49
+      },
+      {
+        "id": "dfb7cddd",
+        "date": "2025-11-25T14:30",
+        "channel": "Phone",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 8 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 42
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Aisha Anderson",
+    "first_name": "Aisha",
+    "last_name": "Anderson",
+    "email": "aisha.anderson@silvermedia.com",
+    "phone": "+1 (930) 654-2204",
+    "mobile": "+1 (283) 529-3430",
+    "role": "CTO",
+    "company": "Silver Media Co.",
+    "industry": "Media",
+    "company_size": "11-50",
+    "website": "https://www.silvermedia.com",
+    "address": {
+      "street": "4515 Sunset Blvd",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98191",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Cold Call",
+    "deal_value": 184000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "decision-maker",
+      "technical",
+      "needs-demo"
+    ],
+    "linkedin": "https://linkedin.com/in/aisha-anderson-540",
+    "created_at": "2026-06-27T16:32:39",
+    "last_contacted": "2026-08-25T09:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "064bf689",
+        "date": "2026-08-25T09:15",
+        "channel": "Chat",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about data syncing integration.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 58
+      },
+      {
+        "id": "55db8182",
+        "date": "2026-08-23T15:15",
+        "channel": "Meeting",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 17
+      },
+      {
+        "id": "aaf333ff",
+        "date": "2026-07-30T10:00",
+        "channel": "Phone",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on onboarding. Promised a call with the account manager.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 16
+      },
+      {
+        "id": "e2cd41ed",
+        "date": "2026-07-26T17:00",
+        "channel": "Chat",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on API access. Promised a call with the account manager.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 36
+      },
+      {
+        "id": "29b94f61",
+        "date": "2026-07-24T17:15",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on SSO. Promised a call with the account manager.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 13
+      },
+      {
+        "id": "79001307",
+        "date": "2026-07-04T10:45",
+        "channel": "Chat",
+        "subject": "Support issue",
+        "summary": "Reported a problem with invoicing. Escalated to support, ticket #2041.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 33
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Chloe Clark",
+    "first_name": "Chloe",
+    "last_name": "Clark",
+    "email": "chloe.clark@apexretail.com",
+    "phone": "+1 (822) 652-7785",
+    "mobile": "+1 (480) 420-9394",
+    "role": "CTO",
+    "company": "Apex Retail Group",
+    "industry": "Retail",
+    "company_size": "51-200",
+    "website": "https://www.apexretail.com",
+    "address": {
+      "street": "7053 Oak Ave",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30346",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Trade Show",
+    "deal_value": 172000,
+    "owner": "Alex Rivera",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/chloe-clark-309",
+    "created_at": "2025-06-17T16:32:39",
+    "last_contacted": "2026-07-20T17:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "c4fe55d3",
+        "date": "2026-07-20T17:00",
+        "channel": "Phone",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 48% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 36
+      },
+      {
+        "id": "592c82b3",
+        "date": "2026-07-02T08:00",
+        "channel": "Chat",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 101 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 51
+      },
+      {
+        "id": "dbd404e8",
+        "date": "2025-12-23T09:30",
+        "channel": "Chat",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on reporting. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 43
+      },
+      {
+        "id": "ceeea1ae",
+        "date": "2025-11-25T14:30",
+        "channel": "Meeting",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about SSO integration.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 10
+      },
+      {
+        "id": "84ab3633",
+        "date": "2025-11-12T17:30",
+        "channel": "Meeting",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around invoicing. Interested in a follow-up demo.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 27
+      },
+      {
+        "id": "ce051665",
+        "date": "2025-08-06T13:15",
+        "channel": "Chat",
+        "subject": "Renewal",
+        "summary": "Renewal due in 25 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 60
+      },
+      {
+        "id": "b648e19e",
+        "date": "2025-07-02T10:30",
+        "channel": "Meeting",
+        "subject": "Support issue",
+        "summary": "Reported a problem with SSO. Escalated to support, ticket #1100.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 9
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Fatima Johnson",
+    "first_name": "Fatima",
+    "last_name": "Johnson",
+    "email": "fatima.johnson@atlasanalytics.com",
+    "phone": "+1 (222) 532-3815",
+    "mobile": "+1 (833) 671-6928",
+    "role": "CTO",
+    "company": "Atlas Analytics Group",
+    "industry": "Technology",
+    "company_size": "201-1000",
+    "website": "https://www.atlasanalytics.com",
+    "address": {
+      "street": "1744 Broadway",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98165",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Trade Show",
+    "deal_value": 224000,
+    "owner": "Sam Patel",
+    "tags": [
+      "at-risk"
+    ],
+    "linkedin": "https://linkedin.com/in/fatima-johnson-897",
+    "created_at": "2025-08-29T16:32:39",
+    "last_contacted": "2026-05-11T14:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "1b33530c",
+        "date": "2026-05-11T14:15",
+        "channel": "Email",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around inventory tracking. Interested in a follow-up demo.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 60
+      },
+      {
+        "id": "85aa0797",
+        "date": "2026-04-10T08:45",
+        "channel": "Phone",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around SSO. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 30
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Priya Chen",
+    "first_name": "Priya",
+    "last_name": "Chen",
+    "email": "priya.chen@northmanufacturing.com",
+    "phone": "+1 (355) 263-8381",
+    "mobile": "+1 (306) 551-2381",
+    "role": "IT Director",
+    "company": "North Manufacturing Inc.",
+    "industry": "Manufacturing",
+    "company_size": "11-50",
+    "website": "https://www.northmanufacturing.com",
+    "address": {
+      "street": "651 Broadway",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94166",
+      "country": "USA"
+    },
+    "status": "Customer",
+    "lead_source": "Cold Call",
+    "deal_value": 135000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "at-risk",
+      "high-value",
+      "technical"
+    ],
+    "linkedin": "https://linkedin.com/in/priya-chen-167",
+    "created_at": "2025-02-23T16:32:39",
+    "last_contacted": "2026-06-14T17:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "d207ff85",
+        "date": "2026-06-14T17:45",
+        "channel": "Chat",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their finance team.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 45
+      },
+      {
+        "id": "b958631d",
+        "date": "2026-02-18T10:15",
+        "channel": "Phone",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 16% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 16
+      },
+      {
+        "id": "0d28a20f",
+        "date": "2025-12-02T17:00",
+        "channel": "Meeting",
+        "subject": "Support issue",
+        "summary": "Reported a problem with lead routing. Escalated to support, ticket #6085.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 58
+      },
+      {
+        "id": "4ed1d906",
+        "date": "2025-05-13T09:45",
+        "channel": "Video Call",
+        "subject": "Support issue",
+        "summary": "Reported a problem with analytics. Escalated to support, ticket #1672.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 37
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ethan Khan",
+    "first_name": "Ethan",
+    "last_name": "Khan",
+    "email": "ethan.khan@northmanufacturing.com",
+    "phone": "+1 (833) 334-7172",
+    "mobile": "+1 (358) 366-3962",
+    "role": "Customer Success Manager",
+    "company": "North Manufacturing Co.",
+    "industry": "Manufacturing",
+    "company_size": "1000+",
+    "website": "https://www.northmanufacturing.com",
+    "address": {
+      "street": "2722 Park Pl",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98166",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Trade Show",
+    "deal_value": 175000,
+    "owner": "Sam Patel",
+    "tags": [
+      "needs-demo",
+      "smb",
+      "technical"
+    ],
+    "linkedin": "https://linkedin.com/in/ethan-khan-416",
+    "created_at": "2025-11-14T16:32:39",
+    "last_contacted": "2026-02-21T11:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "1f5e2aea",
+        "date": "2026-02-21T11:15",
+        "channel": "Email",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their executive team.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 54
+      },
+      {
+        "id": "c70f4f69",
+        "date": "2026-01-19T16:00",
+        "channel": "Video Call",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 28% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 54
+      },
+      {
+        "id": "5257a63d",
+        "date": "2025-12-26T17:15",
+        "channel": "Meeting",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 13% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 46
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Andre Dubois",
+    "first_name": "Andre",
+    "last_name": "Dubois",
+    "email": "andre.dubois@silverpartners.com",
+    "phone": "+1 (447) 950-2698",
+    "mobile": "+1 (796) 952-6447",
+    "role": "CFO",
+    "company": "Silver Partners LLC",
+    "industry": "Consulting",
+    "company_size": "1-10",
+    "website": "https://www.silverpartners.com",
+    "address": {
+      "street": "5782 Market St",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80253",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Partner",
+    "deal_value": 180000,
+    "owner": "Jordan Lee",
+    "tags": [
+      "decision-maker"
+    ],
+    "linkedin": "https://linkedin.com/in/andre-dubois-833",
+    "created_at": "2024-09-04T16:32:39",
+    "last_contacted": "2026-04-16T11:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "e30e7d48",
+        "date": "2026-04-16T11:15",
+        "channel": "Meeting",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on inventory tracking. Promised a call with the account manager.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 38
+      },
+      {
+        "id": "d64f7d59",
+        "date": "2026-03-26T09:00",
+        "channel": "Meeting",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 22% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 10
+      },
+      {
+        "id": "5978cc78",
+        "date": "2025-12-10T13:00",
+        "channel": "Video Call",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 19
+      },
+      {
+        "id": "ec24d4cb",
+        "date": "2025-07-28T09:30",
+        "channel": "Email",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around onboarding. Interested in a follow-up demo.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 33
+      },
+      {
+        "id": "80298c95",
+        "date": "2025-06-20T14:45",
+        "channel": "Email",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their finance team.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 60
+      },
+      {
+        "id": "955ed035",
+        "date": "2025-05-06T12:00",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with reporting. Escalated to support, ticket #8489.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 45
+      },
+      {
+        "id": "ec4b060c",
+        "date": "2024-11-13T16:00",
+        "channel": "Video Call",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 28% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 27
+      },
+      {
+        "id": "a0dd8f7f",
+        "date": "2024-09-10T09:00",
+        "channel": "Meeting",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced reporting features. Will discuss internally.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 54
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Grace Martin",
+    "first_name": "Grace",
+    "last_name": "Martin",
+    "email": "grace.martin@blueenergy.com",
+    "phone": "+1 (259) 276-7655",
+    "mobile": "+1 (573) 725-3621",
+    "role": "CEO",
+    "company": "Blue Energy LLC",
+    "industry": "Energy",
+    "company_size": "11-50",
+    "website": "https://www.blueenergy.com",
+    "address": {
+      "street": "9964 2nd Ave",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10066",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Referral",
+    "deal_value": 19000,
+    "owner": "Taylor Brooks",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/grace-martin-719",
+    "created_at": "2024-05-11T16:32:39",
+    "last_contacted": "2025-03-31T12:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "90942404",
+        "date": "2025-03-31T12:45",
+        "channel": "Chat",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around customer support. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 60
+      },
+      {
+        "id": "05c05d4f",
+        "date": "2025-03-21T15:45",
+        "channel": "Email",
+        "subject": "Support issue",
+        "summary": "Reported a problem with customer support. Escalated to support, ticket #8325.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 45
+      },
+      {
+        "id": "319850de",
+        "date": "2025-02-15T09:30",
+        "channel": "Video Call",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 29% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 28
+      },
+      {
+        "id": "a6f342da",
+        "date": "2025-02-09T09:45",
+        "channel": "Phone",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on inventory tracking. Promised a call with the account manager.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 25
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Carlos Müller",
+    "first_name": "Carlos",
+    "last_name": "Müller",
+    "email": "carlos.muller@silversoftware.com",
+    "phone": "+1 (326) 338-2213",
+    "mobile": "+1 (663) 376-8292",
+    "role": "CTO",
+    "company": "Silver Software Group",
+    "industry": "Technology",
+    "company_size": "51-200",
+    "website": "https://www.silversoftware.com",
+    "address": {
+      "street": "5702 Park Pl",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30318",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Cold Call",
+    "deal_value": 219000,
+    "owner": "Jordan Lee",
+    "tags": [
+      "smb",
+      "needs-demo"
+    ],
+    "linkedin": "https://linkedin.com/in/carlos-müller-224",
+    "created_at": "2024-06-09T16:32:39",
+    "last_contacted": "2025-07-11T16:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "966e37fb",
+        "date": "2025-07-11T16:00",
+        "channel": "Meeting",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on API access. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 17
+      },
+      {
+        "id": "9ebc0c71",
+        "date": "2024-10-28T16:30",
+        "channel": "Video Call",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced SSO features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 36
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Liam Dubois",
+    "first_name": "Liam",
+    "last_name": "Dubois",
+    "email": "liam.dubois@novafoods.com",
+    "phone": "+1 (665) 274-1981",
+    "mobile": "+1 (362) 650-7809",
+    "role": "Procurement Lead",
+    "company": "Nova Foods Co.",
+    "industry": "Food & Beverage",
+    "company_size": "201-1000",
+    "website": "https://www.novafoods.com",
+    "address": {
+      "street": "3352 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10087",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "LinkedIn",
+    "deal_value": 222000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "at-risk"
+    ],
+    "linkedin": "https://linkedin.com/in/liam-dubois-627",
+    "created_at": "2025-07-26T16:32:39",
+    "last_contacted": "2026-09-11T16:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "8ada1669",
+        "date": "2026-09-11T16:15",
+        "channel": "Chat",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their executive team.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 57
+      },
+      {
+        "id": "43fef4e2",
+        "date": "2026-05-26T17:15",
+        "channel": "Email",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 189 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 7
+      },
+      {
+        "id": "645c25a1",
+        "date": "2026-03-05T16:00",
+        "channel": "Phone",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 44 seats; requested a discount.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 27
+      },
+      {
+        "id": "2461e5f5",
+        "date": "2025-12-19T09:30",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on lead routing. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 37
+      },
+      {
+        "id": "a0f02f4f",
+        "date": "2025-12-09T11:45",
+        "channel": "Chat",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced data syncing features. Will discuss internally.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 24
+      },
+      {
+        "id": "b98f6f61",
+        "date": "2025-09-02T10:30",
+        "channel": "Phone",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced customer support features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 54
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Lucas Khan",
+    "first_name": "Lucas",
+    "last_name": "Khan",
+    "email": "lucas.khan@ironfoods.com",
+    "phone": "+1 (686) 471-4728",
+    "mobile": "+1 (939) 252-8871",
+    "role": "CFO",
+    "company": "Iron Foods Co.",
+    "industry": "Food & Beverage",
+    "company_size": "1000+",
+    "website": "https://www.ironfoods.com",
+    "address": {
+      "street": "6239 Maple Dr",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33197",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Website",
+    "deal_value": 0,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "upsell",
+      "budget-approved"
+    ],
+    "linkedin": "https://linkedin.com/in/lucas-khan-522",
+    "created_at": "2025-10-30T16:32:39",
+    "last_contacted": "2026-08-08T12:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "084d98c2",
+        "date": "2026-08-08T12:00",
+        "channel": "Email",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their executive team.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 17
+      },
+      {
+        "id": "07782c89",
+        "date": "2026-07-18T14:00",
+        "channel": "Phone",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced data syncing features. Will discuss internally.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 43
+      },
+      {
+        "id": "e725420f",
+        "date": "2026-07-13T16:45",
+        "channel": "Video Call",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 132 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 18
+      },
+      {
+        "id": "8e7df809",
+        "date": "2026-05-06T14:30",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with inventory tracking. Escalated to support, ticket #4189.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 37
+      },
+      {
+        "id": "6e79049f",
+        "date": "2026-04-29T08:00",
+        "channel": "Meeting",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced customer support features. Will discuss internally.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 13
+      },
+      {
+        "id": "43114d0c",
+        "date": "2026-04-02T15:00",
+        "channel": "Meeting",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced SSO features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 43
+      },
+      {
+        "id": "9f3d3293",
+        "date": "2026-01-11T09:00",
+        "channel": "Meeting",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 17
+      },
+      {
+        "id": "f3309318",
+        "date": "2026-01-10T13:30",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on inventory tracking. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 50
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Isabella Johnson",
+    "first_name": "Isabella",
+    "last_name": "Johnson",
+    "email": "isabella.johnson@brightrobotics.com",
+    "phone": "+1 (939) 897-5331",
+    "mobile": "+1 (825) 695-4150",
+    "role": "VP of Sales",
+    "company": "Bright Robotics Corp.",
+    "industry": "Manufacturing",
+    "company_size": "51-200",
+    "website": "https://www.brightrobotics.com",
+    "address": {
+      "street": "9153 Pine St",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30338",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Partner",
+    "deal_value": 182000,
+    "owner": "Sam Patel",
+    "tags": [
+      "at-risk",
+      "smb",
+      "renewal"
+    ],
+    "linkedin": "https://linkedin.com/in/isabella-johnson-394",
+    "created_at": "2024-07-07T16:32:39",
+    "last_contacted": "2025-12-21T11:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "c2970594",
+        "date": "2025-12-21T11:30",
+        "channel": "Video Call",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 101 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 48
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Aisha Taylor",
+    "first_name": "Aisha",
+    "last_name": "Taylor",
+    "email": "aisha.taylor@pioneerrobotics.com",
+    "phone": "+1 (464) 935-4050",
+    "mobile": "+1 (215) 954-6523",
+    "role": "COO",
+    "company": "Pioneer Robotics Co.",
+    "industry": "Manufacturing",
+    "company_size": "51-200",
+    "website": "https://www.pioneerrobotics.com",
+    "address": {
+      "street": "9312 2nd Ave",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02134",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Cold Call",
+    "deal_value": 165000,
+    "owner": "Sam Patel",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/aisha-taylor-510",
+    "created_at": "2024-04-13T16:32:39",
+    "last_contacted": "2026-06-29T15:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "aa60c979",
+        "date": "2026-06-29T15:15",
+        "channel": "Meeting",
+        "subject": "Renewal",
+        "summary": "Renewal due in 87 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 34
+      },
+      {
+        "id": "e1f3058d",
+        "date": "2025-10-02T15:15",
+        "channel": "Chat",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on customer support. Promised a call with the account manager.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 46
+      },
+      {
+        "id": "292c2cbd",
+        "date": "2025-06-11T13:45",
+        "channel": "Phone",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about onboarding integration.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 53
+      },
+      {
+        "id": "221d7be3",
+        "date": "2025-03-08T12:00",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with analytics. Escalated to support, ticket #9767.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 7
+      },
+      {
+        "id": "947e3fb3",
+        "date": "2025-02-05T08:30",
+        "channel": "Phone",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 241 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 57
+      },
+      {
+        "id": "be0bd2da",
+        "date": "2025-01-16T16:30",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on invoicing. Promised a call with the account manager.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 8
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Kwame Khan",
+    "first_name": "Kwame",
+    "last_name": "Khan",
+    "email": "kwame.khan@novaanalytics.com",
+    "phone": "+1 (515) 363-7642",
+    "mobile": "+1 (903) 714-6095",
+    "role": "Founder",
+    "company": "Nova Analytics Co.",
+    "industry": "Technology",
+    "company_size": "1-10",
+    "website": "https://www.novaanalytics.com",
+    "address": {
+      "street": "4843 Elm St",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80288",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Referral",
+    "deal_value": 41000,
+    "owner": "Sam Patel",
+    "tags": [
+      "smb",
+      "enterprise",
+      "needs-demo"
+    ],
+    "linkedin": "https://linkedin.com/in/kwame-khan-880",
+    "created_at": "2025-11-18T16:32:39",
+    "last_contacted": "2026-06-03T11:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "cfef0469",
+        "date": "2026-06-03T11:45",
+        "channel": "Meeting",
+        "subject": "Support issue",
+        "summary": "Reported a problem with SSO. Escalated to support, ticket #1187.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 34
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Sofia Müller",
+    "first_name": "Sofia",
+    "last_name": "Müller",
+    "email": "sofia.muller@atlasmedia.com",
+    "phone": "+1 (483) 393-2848",
+    "mobile": "+1 (233) 876-7868",
+    "role": "Product Manager",
+    "company": "Atlas Media Inc.",
+    "industry": "Media",
+    "company_size": "1-10",
+    "website": "https://www.atlasmedia.com",
+    "address": {
+      "street": "3953 Broadway",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94118",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Cold Call",
+    "deal_value": 182000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "high-value"
+    ],
+    "linkedin": "https://linkedin.com/in/sofia-müller-511",
+    "created_at": "2025-04-29T16:32:39",
+    "last_contacted": "2026-09-12T09:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "6e491fd0",
+        "date": "2026-09-12T09:45",
+        "channel": "Phone",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced customer support features. Will discuss internally.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 48
+      },
+      {
+        "id": "ee0f762c",
+        "date": "2026-05-19T09:15",
+        "channel": "Meeting",
+        "subject": "Renewal",
+        "summary": "Renewal due in 77 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 58
+      },
+      {
+        "id": "ab46c6cd",
+        "date": "2025-08-22T08:15",
+        "channel": "Chat",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about lead routing integration.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 50
+      },
+      {
+        "id": "3264c420",
+        "date": "2025-07-09T15:00",
+        "channel": "Meeting",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around inventory tracking. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 60
+      },
+      {
+        "id": "d1626a28",
+        "date": "2025-05-23T12:45",
+        "channel": "Chat",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around inventory tracking. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 14
+      },
+      {
+        "id": "5ad5042f",
+        "date": "2025-05-22T14:30",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with reporting. Escalated to support, ticket #2196.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 39
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Chloe Rossi",
+    "first_name": "Chloe",
+    "last_name": "Rossi",
+    "email": "chloe.rossi@northfoods.com",
+    "phone": "+1 (541) 510-1251",
+    "mobile": "+1 (417) 394-2922",
+    "role": "Founder",
+    "company": "North Foods Inc.",
+    "industry": "Food & Beverage",
+    "company_size": "201-1000",
+    "website": "https://www.northfoods.com",
+    "address": {
+      "street": "3984 Park Pl",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78787",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "Trade Show",
+    "deal_value": 236000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "smb",
+      "at-risk",
+      "renewal"
+    ],
+    "linkedin": "https://linkedin.com/in/chloe-rossi-367",
+    "created_at": "2025-03-02T16:32:39",
+    "last_contacted": "2026-09-24T17:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "623883e1",
+        "date": "2026-09-24T17:15",
+        "channel": "Video Call",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around lead routing. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 31
+      },
+      {
+        "id": "d060326a",
+        "date": "2026-08-27T10:45",
+        "channel": "Email",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on API access. Promised a call with the account manager.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 39
+      },
+      {
+        "id": "a5387243",
+        "date": "2026-01-23T17:30",
+        "channel": "Email",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 22
+      },
+      {
+        "id": "1a824c62",
+        "date": "2026-01-04T14:15",
+        "channel": "Chat",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 66 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 31
+      },
+      {
+        "id": "91a75e08",
+        "date": "2025-04-24T12:45",
+        "channel": "Chat",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 18
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Yuki Davis",
+    "first_name": "Yuki",
+    "last_name": "Davis",
+    "email": "yuki.davis@harborcapital.com",
+    "phone": "+1 (645) 860-6427",
+    "mobile": "+1 (780) 297-9653",
+    "role": "Head of Partnerships",
+    "company": "Harbor Capital Co.",
+    "industry": "Finance",
+    "company_size": "1-10",
+    "website": "https://www.harborcapital.com",
+    "address": {
+      "street": "3774 Broadway",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33198",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Trade Show",
+    "deal_value": 71000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "at-risk"
+    ],
+    "linkedin": "https://linkedin.com/in/yuki-davis-116",
+    "created_at": "2024-04-29T16:32:39",
+    "last_contacted": "2026-09-06T09:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "03b2337c",
+        "date": "2026-09-06T09:00",
+        "channel": "Phone",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around inventory tracking. Interested in a follow-up demo.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 28
+      },
+      {
+        "id": "eb447c35",
+        "date": "2026-01-22T17:45",
+        "channel": "Video Call",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around data syncing. Interested in a follow-up demo.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 39
+      },
+      {
+        "id": "fa6bead0",
+        "date": "2025-08-14T10:30",
+        "channel": "Email",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their executive team.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 38
+      },
+      {
+        "id": "0b5757fd",
+        "date": "2025-01-28T14:00",
+        "channel": "Meeting",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 49% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 46
+      },
+      {
+        "id": "dbbc10b2",
+        "date": "2024-11-24T13:30",
+        "channel": "Video Call",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 52% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 23
+      },
+      {
+        "id": "e06e7bee",
+        "date": "2024-11-16T13:15",
+        "channel": "Video Call",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 218 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 51
+      },
+      {
+        "id": "319bfd84",
+        "date": "2024-08-03T14:45",
+        "channel": "Video Call",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around lead routing. Interested in a follow-up demo.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 59
+      },
+      {
+        "id": "405523f8",
+        "date": "2024-05-17T16:45",
+        "channel": "Email",
+        "subject": "Support issue",
+        "summary": "Reported a problem with invoicing. Escalated to support, ticket #2578.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 57
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Liam Taylor",
+    "first_name": "Liam",
+    "last_name": "Taylor",
+    "email": "liam.taylor@novasolutions.com",
+    "phone": "+1 (453) 930-2204",
+    "mobile": "+1 (285) 474-3526",
+    "role": "Operations Manager",
+    "company": "Nova Solutions Co.",
+    "industry": "Consulting",
+    "company_size": "11-50",
+    "website": "https://www.novasolutions.com",
+    "address": {
+      "street": "6393 Elm St",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33156",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Website",
+    "deal_value": 94000,
+    "owner": "Sam Patel",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/liam-taylor-235",
+    "created_at": "2025-09-27T16:32:39",
+    "last_contacted": "2026-06-06T11:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "944c0ece",
+        "date": "2026-06-06T11:30",
+        "channel": "Chat",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their operations team.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 56
+      },
+      {
+        "id": "3860064f",
+        "date": "2026-05-09T11:00",
+        "channel": "Meeting",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about analytics integration.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 55
+      },
+      {
+        "id": "f9cf017b",
+        "date": "2026-01-29T17:45",
+        "channel": "Chat",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced SSO features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 8
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Wei Patel",
+    "first_name": "Wei",
+    "last_name": "Patel",
+    "email": "wei.patel@brightcapital.com",
+    "phone": "+1 (634) 586-2211",
+    "mobile": "+1 (660) 812-8851",
+    "role": "Product Manager",
+    "company": "Bright Capital Corp.",
+    "industry": "Finance",
+    "company_size": "201-1000",
+    "website": "https://www.brightcapital.com",
+    "address": {
+      "street": "8765 Market St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94198",
+      "country": "USA"
+    },
+    "status": "Customer",
+    "lead_source": "Cold Call",
+    "deal_value": 181000,
+    "owner": "Alex Rivera",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/wei-patel-887",
+    "created_at": "2025-02-21T16:32:39",
+    "last_contacted": "2026-09-17T11:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "0abc492e",
+        "date": "2026-09-17T11:15",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about onboarding integration.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 15
+      },
+      {
+        "id": "58f83b39",
+        "date": "2026-01-21T14:30",
+        "channel": "Video Call",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 51
+      },
+      {
+        "id": "3e3ac562",
+        "date": "2025-12-01T14:30",
+        "channel": "Video Call",
+        "subject": "Renewal",
+        "summary": "Renewal due in 90 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 34
+      },
+      {
+        "id": "8b9ef182",
+        "date": "2025-09-24T15:30",
+        "channel": "Phone",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their IT team.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 50
+      },
+      {
+        "id": "b5576f50",
+        "date": "2025-07-11T12:30",
+        "channel": "Chat",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced reporting features. Will discuss internally.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 41
+      },
+      {
+        "id": "2303880f",
+        "date": "2025-07-10T12:00",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about SSO integration.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 57
+      },
+      {
+        "id": "ef488253",
+        "date": "2025-03-20T09:30",
+        "channel": "Chat",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about invoicing integration.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 29
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Sofia Müller",
+    "first_name": "Sofia",
+    "last_name": "Müller",
+    "email": "sofia.muller@pioneersoftware.com",
+    "phone": "+1 (584) 600-8586",
+    "mobile": "+1 (896) 802-9199",
+    "role": "CFO",
+    "company": "Pioneer Software LLC",
+    "industry": "Technology",
+    "company_size": "51-200",
+    "website": "https://www.pioneersoftware.com",
+    "address": {
+      "street": "412 Lakeview Rd",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37223",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Trade Show",
+    "deal_value": 31000,
+    "owner": "Jordan Lee",
+    "tags": [
+      "renewal",
+      "at-risk"
+    ],
+    "linkedin": "https://linkedin.com/in/sofia-müller-566",
+    "created_at": "2024-11-10T16:32:39",
+    "last_contacted": "2026-09-02T14:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "1ef582c5",
+        "date": "2026-09-02T14:30",
+        "channel": "Video Call",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced invoicing features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 33
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Andre Johnson",
+    "first_name": "Andre",
+    "last_name": "Johnson",
+    "email": "andre.johnson@northcapital.com",
+    "phone": "+1 (718) 868-9109",
+    "mobile": "+1 (619) 901-9056",
+    "role": "Operations Manager",
+    "company": "North Capital Group",
+    "industry": "Finance",
+    "company_size": "201-1000",
+    "website": "https://www.northcapital.com",
+    "address": {
+      "street": "8016 Maple Dr",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30320",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Website",
+    "deal_value": 205000,
+    "owner": "Jordan Lee",
+    "tags": [
+      "budget-approved",
+      "enterprise"
+    ],
+    "linkedin": "https://linkedin.com/in/andre-johnson-679",
+    "created_at": "2026-04-22T16:32:39",
+    "last_contacted": "2026-09-27T11:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "2c9e1249",
+        "date": "2026-09-27T11:45",
+        "channel": "Chat",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around inventory tracking. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 41
+      },
+      {
+        "id": "8faa6de7",
+        "date": "2026-09-26T14:00",
+        "channel": "Meeting",
+        "subject": "Renewal",
+        "summary": "Renewal due in 32 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 48
+      },
+      {
+        "id": "1a9f5140",
+        "date": "2026-09-17T14:45",
+        "channel": "Email",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 167 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 23
+      },
+      {
+        "id": "78616621",
+        "date": "2026-09-11T10:30",
+        "channel": "Chat",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 250 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 30
+      },
+      {
+        "id": "7feda563",
+        "date": "2026-09-07T10:30",
+        "channel": "Meeting",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about reporting integration.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 43
+      },
+      {
+        "id": "7174a32b",
+        "date": "2026-07-13T09:30",
+        "channel": "Phone",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their IT team.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 38
+      },
+      {
+        "id": "04db338e",
+        "date": "2026-07-12T09:15",
+        "channel": "Meeting",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 51 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 43
+      },
+      {
+        "id": "3fe9e1d2",
+        "date": "2026-06-09T13:45",
+        "channel": "Chat",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 226 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 40
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Ravi Wilson",
+    "first_name": "Ravi",
+    "last_name": "Wilson",
+    "email": "ravi.wilson@atlascapital.com",
+    "phone": "+1 (412) 411-1972",
+    "mobile": "+1 (784) 559-9720",
+    "role": "VP of Engineering",
+    "company": "Atlas Capital Corp.",
+    "industry": "Finance",
+    "company_size": "1000+",
+    "website": "https://www.atlascapital.com",
+    "address": {
+      "street": "8837 Maple Dr",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94151",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "LinkedIn",
+    "deal_value": 221000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "upsell"
+    ],
+    "linkedin": "https://linkedin.com/in/ravi-wilson-160",
+    "created_at": "2026-04-06T16:32:39",
+    "last_contacted": "2026-08-24T13:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "984e718c",
+        "date": "2026-08-24T13:00",
+        "channel": "Video Call",
+        "subject": "Support issue",
+        "summary": "Reported a problem with lead routing. Escalated to support, ticket #7965.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 21
+      },
+      {
+        "id": "fe57f773",
+        "date": "2026-04-29T15:00",
+        "channel": "Email",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 60% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 55
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Noah Reyes",
+    "first_name": "Noah",
+    "last_name": "Reyes",
+    "email": "noah.reyes@pioneeranalytics.com",
+    "phone": "+1 (298) 201-4496",
+    "mobile": "+1 (689) 279-3174",
+    "role": "Product Manager",
+    "company": "Pioneer Analytics LLC",
+    "industry": "Technology",
+    "company_size": "11-50",
+    "website": "https://www.pioneeranalytics.com",
+    "address": {
+      "street": "8520 2nd Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60666",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Website",
+    "deal_value": 89000,
+    "owner": "Jordan Lee",
+    "tags": [
+      "decision-maker",
+      "needs-demo",
+      "upsell"
+    ],
+    "linkedin": "https://linkedin.com/in/noah-reyes-191",
+    "created_at": "2026-03-03T16:32:39",
+    "last_contacted": "2026-09-14T14:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "5dcb1f16",
+        "date": "2026-09-14T14:45",
+        "channel": "Email",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 45
+      },
+      {
+        "id": "d5d4f059",
+        "date": "2026-08-13T13:00",
+        "channel": "Chat",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their operations team.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 58
+      },
+      {
+        "id": "7f893dda",
+        "date": "2026-06-15T16:30",
+        "channel": "Meeting",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about customer support integration.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 51
+      },
+      {
+        "id": "9bee06fa",
+        "date": "2026-05-29T16:15",
+        "channel": "Chat",
+        "subject": "Support issue",
+        "summary": "Reported a problem with customer support. Escalated to support, ticket #6631.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 6
+      },
+      {
+        "id": "fdfeabfb",
+        "date": "2026-05-07T09:30",
+        "channel": "Email",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 51% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 50
+      },
+      {
+        "id": "99810418",
+        "date": "2026-04-13T15:45",
+        "channel": "Phone",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about inventory tracking integration.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 46
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ravi Dubois",
+    "first_name": "Ravi",
+    "last_name": "Dubois",
+    "email": "ravi.dubois@summithealth.com",
+    "phone": "+1 (602) 502-1894",
+    "mobile": "+1 (446) 706-7322",
+    "role": "CTO",
+    "company": "Summit Health Group",
+    "industry": "Healthcare",
+    "company_size": "11-50",
+    "website": "https://www.summithealth.com",
+    "address": {
+      "street": "8195 2nd Ave",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80286",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Cold Call",
+    "deal_value": 0,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "at-risk",
+      "smb",
+      "budget-approved"
+    ],
+    "linkedin": "https://linkedin.com/in/ravi-dubois-881",
+    "created_at": "2025-09-27T16:32:39",
+    "last_contacted": "2026-09-14T15:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "5bdaf341",
+        "date": "2026-09-14T15:15",
+        "channel": "Phone",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced invoicing features. Will discuss internally.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 55
+      },
+      {
+        "id": "b5d3b33e",
+        "date": "2026-02-01T12:00",
+        "channel": "Email",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 158 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 52
+      },
+      {
+        "id": "8b6f752c",
+        "date": "2025-12-05T10:00",
+        "channel": "Chat",
+        "subject": "Renewal",
+        "summary": "Renewal due in 54 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 31
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Omar Wilson",
+    "first_name": "Omar",
+    "last_name": "Wilson",
+    "email": "omar.wilson@summitlogistics.com",
+    "phone": "+1 (569) 256-9185",
+    "mobile": "+1 (781) 370-7024",
+    "role": "CFO",
+    "company": "Summit Logistics Corp.",
+    "industry": "Transportation",
+    "company_size": "51-200",
+    "website": "https://www.summitlogistics.com",
+    "address": {
+      "street": "1695 Washington St",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33183",
+      "country": "USA"
+    },
+    "status": "Lead",
+    "lead_source": "Referral",
+    "deal_value": 221000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "high-value"
+    ],
+    "linkedin": "https://linkedin.com/in/omar-wilson-583",
+    "created_at": "2026-07-16T16:32:39",
+    "last_contacted": "2026-09-23T17:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "7cfbbfba",
+        "date": "2026-09-23T17:15",
+        "channel": "Meeting",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on invoicing. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 30
+      },
+      {
+        "id": "1fd1ed96",
+        "date": "2026-08-01T08:30",
+        "channel": "Video Call",
+        "subject": "Support issue",
+        "summary": "Reported a problem with API access. Escalated to support, ticket #2046.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 37
+      },
+      {
+        "id": "00a72f58",
+        "date": "2026-08-01T08:15",
+        "channel": "Phone",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 132 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 13
+      },
+      {
+        "id": "69e5186b",
+        "date": "2026-07-25T12:45",
+        "channel": "Email",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced data syncing features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 24
+      },
+      {
+        "id": "b1bd9eeb",
+        "date": "2026-07-22T08:45",
+        "channel": "Chat",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 10
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Yuki Williams",
+    "first_name": "Yuki",
+    "last_name": "Williams",
+    "email": "yuki.williams@harboranalytics.com",
+    "phone": "+1 (340) 998-2785",
+    "mobile": "+1 (360) 308-3693",
+    "role": "Procurement Lead",
+    "company": "Harbor Analytics LLC",
+    "industry": "Technology",
+    "company_size": "201-1000",
+    "website": "https://www.harboranalytics.com",
+    "address": {
+      "street": "5155 Cedar Ln",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10025",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "LinkedIn",
+    "deal_value": 199000,
+    "owner": "Sam Patel",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/yuki-williams-192",
+    "created_at": "2025-01-10T16:32:39",
+    "last_contacted": "2026-07-07T11:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "01895720",
+        "date": "2026-07-07T11:45",
+        "channel": "Video Call",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 49
+      },
+      {
+        "id": "1a22bf06",
+        "date": "2026-06-23T08:45",
+        "channel": "Phone",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 5
+      },
+      {
+        "id": "0b89d3f1",
+        "date": "2026-04-25T09:00",
+        "channel": "Chat",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 9% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 47
+      },
+      {
+        "id": "ed6136b1",
+        "date": "2026-03-06T08:15",
+        "channel": "Chat",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around SSO. Interested in a follow-up demo.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 11
+      },
+      {
+        "id": "189aa4ae",
+        "date": "2025-12-06T11:45",
+        "channel": "Meeting",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 16
+      },
+      {
+        "id": "c5c360a7",
+        "date": "2025-09-10T12:30",
+        "channel": "Meeting",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 184 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 17
+      },
+      {
+        "id": "9d9e8413",
+        "date": "2025-08-04T12:30",
+        "channel": "Chat",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 42% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "negative",
+        "rep": "Jordan Lee",
+        "duration_min": 14
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Priya Dubois",
+    "first_name": "Priya",
+    "last_name": "Dubois",
+    "email": "priya.dubois@pioneerenergy.com",
+    "phone": "+1 (931) 567-8859",
+    "mobile": "+1 (758) 696-6636",
+    "role": "Head of Partnerships",
+    "company": "Pioneer Energy Corp.",
+    "industry": "Energy",
+    "company_size": "1000+",
+    "website": "https://www.pioneerenergy.com",
+    "address": {
+      "street": "8241 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10059",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Referral",
+    "deal_value": 9000,
+    "owner": "Sam Patel",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/priya-dubois-928",
+    "created_at": "2025-12-22T16:32:39",
+    "last_contacted": "2026-05-15T15:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "1a2762cd",
+        "date": "2026-05-15T15:15",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with analytics. Escalated to support, ticket #5026.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 8
+      },
+      {
+        "id": "a4feaadc",
+        "date": "2026-05-15T14:15",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about reporting integration.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 55
+      },
+      {
+        "id": "cd50b5f8",
+        "date": "2026-05-04T09:00",
+        "channel": "Phone",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about reporting integration.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 7
+      },
+      {
+        "id": "9f84973b",
+        "date": "2026-04-29T09:45",
+        "channel": "Phone",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on onboarding. Promised a call with the account manager.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 28
+      },
+      {
+        "id": "2235326b",
+        "date": "2026-02-07T11:30",
+        "channel": "Video Call",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 17 seats; requested a discount.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 40
+      },
+      {
+        "id": "3495c8e8",
+        "date": "2026-01-17T10:45",
+        "channel": "Video Call",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their IT team.",
+        "sentiment": "neutral",
+        "rep": "Jordan Lee",
+        "duration_min": 16
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Omar Davis",
+    "first_name": "Omar",
+    "last_name": "Davis",
+    "email": "omar.davis@ironsolutions.com",
+    "phone": "+1 (703) 238-2478",
+    "mobile": "+1 (258) 438-4584",
+    "role": "CEO",
+    "company": "Iron Solutions Corp.",
+    "industry": "Consulting",
+    "company_size": "1000+",
+    "website": "https://www.ironsolutions.com",
+    "address": {
+      "street": "7841 Main St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60652",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Referral",
+    "deal_value": 47000,
+    "owner": "Sam Patel",
+    "tags": [],
+    "linkedin": "https://linkedin.com/in/omar-davis-122",
+    "created_at": "2026-02-17T16:32:39",
+    "last_contacted": "2026-08-05T11:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "7320c285",
+        "date": "2026-08-05T11:30",
+        "channel": "Chat",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 20
+      },
+      {
+        "id": "4224787a",
+        "date": "2026-05-10T13:00",
+        "channel": "Meeting",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced analytics features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 16
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Carlos Taylor",
+    "first_name": "Carlos",
+    "last_name": "Taylor",
+    "email": "carlos.taylor@cedarpartners.com",
+    "phone": "+1 (551) 374-7151",
+    "mobile": "+1 (365) 949-2228",
+    "role": "IT Director",
+    "company": "Cedar Partners LLC",
+    "industry": "Consulting",
+    "company_size": "1-10",
+    "website": "https://www.cedarpartners.com",
+    "address": {
+      "street": "5546 Sunset Blvd",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33188",
+      "country": "USA"
+    },
+    "status": "Customer",
+    "lead_source": "Webinar",
+    "deal_value": 243000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "high-value"
+    ],
+    "linkedin": "https://linkedin.com/in/carlos-taylor-203",
+    "created_at": "2025-02-07T16:32:39",
+    "last_contacted": "2026-09-22T11:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "defe9db2",
+        "date": "2026-09-22T11:15",
+        "channel": "Video Call",
+        "subject": "Follow-up",
+        "summary": "Sent case study and ROI calculator. Waiting on feedback from their legal team.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 9
+      },
+      {
+        "id": "0675a6b0",
+        "date": "2026-02-25T14:00",
+        "channel": "Meeting",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about API access integration.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 16
+      },
+      {
+        "id": "352f6fae",
+        "date": "2026-02-08T11:15",
+        "channel": "Video Call",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on API access. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 59
+      },
+      {
+        "id": "006beee5",
+        "date": "2026-01-01T10:00",
+        "channel": "Meeting",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 18% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 55
+      },
+      {
+        "id": "7a5f696e",
+        "date": "2025-03-13T10:30",
+        "channel": "Chat",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced reporting features. Will discuss internally.",
+        "sentiment": "negative",
+        "rep": "Alex Rivera",
+        "duration_min": 20
+      },
+      {
+        "id": "7742f406",
+        "date": "2025-02-09T08:45",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about inventory tracking integration.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 11
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Ethan Johnson",
+    "first_name": "Ethan",
+    "last_name": "Johnson",
+    "email": "ethan.johnson@apexretail.com",
+    "phone": "+1 (442) 687-5896",
+    "mobile": "+1 (281) 604-1568",
+    "role": "IT Director",
+    "company": "Apex Retail Corp.",
+    "industry": "Retail",
+    "company_size": "1000+",
+    "website": "https://www.apexretail.com",
+    "address": {
+      "street": "8477 River Rd",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97283",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Referral",
+    "deal_value": 0,
+    "owner": "Jordan Lee",
+    "tags": [
+      "budget-approved"
+    ],
+    "linkedin": "https://linkedin.com/in/ethan-johnson-143",
+    "created_at": "2024-07-13T16:32:39",
+    "last_contacted": "2026-05-22T17:45",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "71c6687e",
+        "date": "2026-05-22T17:45",
+        "channel": "Email",
+        "subject": "Support issue",
+        "summary": "Reported a problem with invoicing. Escalated to support, ticket #4390.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 24
+      },
+      {
+        "id": "7e4f3f94",
+        "date": "2025-11-08T15:30",
+        "channel": "Phone",
+        "subject": "Renewal",
+        "summary": "Renewal due in 58 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 7
+      },
+      {
+        "id": "48d6276e",
+        "date": "2025-10-07T15:30",
+        "channel": "Email",
+        "subject": "Support issue",
+        "summary": "Reported a problem with API access. Escalated to support, ticket #2009.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 56
+      },
+      {
+        "id": "d719c09c",
+        "date": "2025-09-10T17:15",
+        "channel": "Chat",
+        "subject": "Complaint",
+        "summary": "Unhappy with response times on data syncing. Promised a call with the account manager.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 41
+      },
+      {
+        "id": "c7c74c1d",
+        "date": "2025-05-14T11:00",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with inventory tracking. Escalated to support, ticket #9043.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 10
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Mateo Chen",
+    "first_name": "Mateo",
+    "last_name": "Chen",
+    "email": "mateo.chen@pioneerretail.com",
+    "phone": "+1 (654) 992-6257",
+    "mobile": "+1 (476) 946-7828",
+    "role": "Product Manager",
+    "company": "Pioneer Retail LLC",
+    "industry": "Retail",
+    "company_size": "1-10",
+    "website": "https://www.pioneerretail.com",
+    "address": {
+      "street": "3089 Lakeview Rd",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37237",
+      "country": "USA"
+    },
+    "status": "Customer",
+    "lead_source": "Webinar",
+    "deal_value": 97000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "decision-maker"
+    ],
+    "linkedin": "https://linkedin.com/in/mateo-chen-418",
+    "created_at": "2026-03-01T16:32:39",
+    "last_contacted": "2026-09-19T12:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "c3e598b6",
+        "date": "2026-09-19T12:30",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about API access integration.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 22
+      },
+      {
+        "id": "44cec372",
+        "date": "2026-09-04T09:00",
+        "channel": "Video Call",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 59% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Alex Rivera",
+        "duration_min": 55
+      },
+      {
+        "id": "d7a73b69",
+        "date": "2026-07-30T16:45",
+        "channel": "Phone",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced inventory tracking features. Will discuss internally.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 41
+      },
+      {
+        "id": "0e71e9b4",
+        "date": "2026-04-07T17:45",
+        "channel": "Phone",
+        "subject": "Renewal",
+        "summary": "Renewal due in 40 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 22
+      },
+      {
+        "id": "2fad9c86",
+        "date": "2026-03-07T13:30",
+        "channel": "Meeting",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 59% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "positive",
+        "rep": "Sam Patel",
+        "duration_min": 52
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Isabella Davis",
+    "first_name": "Isabella",
+    "last_name": "Davis",
+    "email": "isabella.davis@brightanalytics.com",
+    "phone": "+1 (412) 475-7709",
+    "mobile": "+1 (726) 220-1145",
+    "role": "Procurement Lead",
+    "company": "Bright Analytics Corp.",
+    "industry": "Technology",
+    "company_size": "11-50",
+    "website": "https://www.brightanalytics.com",
+    "address": {
+      "street": "2847 Sunset Blvd",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85011",
+      "country": "USA"
+    },
+    "status": "Prospect",
+    "lead_source": "LinkedIn",
+    "deal_value": 80000,
+    "owner": "Sam Patel",
+    "tags": [
+      "upsell",
+      "at-risk",
+      "enterprise"
+    ],
+    "linkedin": "https://linkedin.com/in/isabella-davis-358",
+    "created_at": "2026-07-01T16:32:39",
+    "last_contacted": "2026-09-21T09:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "c8da583f",
+        "date": "2026-09-21T09:00",
+        "channel": "Email",
+        "subject": "Renewal",
+        "summary": "Renewal due in 70 days. Wants to lock in current pricing for 2 years.",
+        "sentiment": "negative",
+        "rep": "Sam Patel",
+        "duration_min": 27
+      },
+      {
+        "id": "b269e056",
+        "date": "2026-08-04T09:30",
+        "channel": "Phone",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 17 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Jordan Lee",
+        "duration_min": 48
+      },
+      {
+        "id": "23aaec5d",
+        "date": "2026-07-27T08:15",
+        "channel": "Phone",
+        "subject": "Contract negotiation",
+        "summary": "Legal is reviewing the MSA. Pushback on the payment terms (net-60 requested).",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 37
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Liam Martin",
+    "first_name": "Liam",
+    "last_name": "Martin",
+    "email": "liam.martin@greenmanufacturing.com",
+    "phone": "+1 (466) 628-7628",
+    "mobile": "+1 (598) 954-1578",
+    "role": "Product Manager",
+    "company": "Green Manufacturing Corp.",
+    "industry": "Manufacturing",
+    "company_size": "1000+",
+    "website": "https://www.greenmanufacturing.com",
+    "address": {
+      "street": "3121 Elm St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85038",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Webinar",
+    "deal_value": 202000,
+    "owner": "Sam Patel",
+    "tags": [
+      "smb"
+    ],
+    "linkedin": "https://linkedin.com/in/liam-martin-285",
+    "created_at": "2025-06-19T16:32:39",
+    "last_contacted": "2026-03-08T13:30",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "583ce00a",
+        "date": "2026-03-08T13:30",
+        "channel": "Meeting",
+        "subject": "Intro call",
+        "summary": "Discussed current workflow and pain points around invoicing. Interested in a follow-up demo.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 46
+      },
+      {
+        "id": "7f238b32",
+        "date": "2025-09-24T10:15",
+        "channel": "Phone",
+        "subject": "Support issue",
+        "summary": "Reported a problem with analytics. Escalated to support, ticket #6236.",
+        "sentiment": "negative",
+        "rep": "Taylor Brooks",
+        "duration_min": 23
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Fatima Khan",
+    "first_name": "Fatima",
+    "last_name": "Khan",
+    "email": "fatima.khan@silveranalytics.com",
+    "phone": "+1 (847) 381-6134",
+    "mobile": "+1 (850) 259-1077",
+    "role": "Procurement Lead",
+    "company": "Silver Analytics Group",
+    "industry": "Technology",
+    "company_size": "51-200",
+    "website": "https://www.silveranalytics.com",
+    "address": {
+      "street": "3440 River Rd",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97231",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Partner",
+    "deal_value": 0,
+    "owner": "Jordan Lee",
+    "tags": [
+      "upsell",
+      "technical",
+      "smb"
+    ],
+    "linkedin": "https://linkedin.com/in/fatima-khan-588",
+    "created_at": "2024-04-24T16:32:39",
+    "last_contacted": "2026-02-24T09:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "17d8869b",
+        "date": "2026-02-24T09:15",
+        "channel": "Meeting",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 31% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "neutral",
+        "rep": "Sam Patel",
+        "duration_min": 34
+      },
+      {
+        "id": "ee7ffb56",
+        "date": "2025-08-19T08:00",
+        "channel": "Video Call",
+        "subject": "Product demo",
+        "summary": "Walked through the dashboard and reporting features. Asked about reporting integration.",
+        "sentiment": "neutral",
+        "rep": "Taylor Brooks",
+        "duration_min": 8
+      },
+      {
+        "id": "c45d3176",
+        "date": "2024-09-12T11:30",
+        "channel": "Video Call",
+        "subject": "Pricing discussion",
+        "summary": "Reviewed pricing tiers. Concerned about cost for 233 seats; requested a discount.",
+        "sentiment": "positive",
+        "rep": "Taylor Brooks",
+        "duration_min": 26
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Olivia Smith",
+    "first_name": "Olivia",
+    "last_name": "Smith",
+    "email": "olivia.smith@bluerobotics.com",
+    "phone": "+1 (716) 802-6015",
+    "mobile": "+1 (372) 266-1749",
+    "role": "VP of Engineering",
+    "company": "Blue Robotics LLC",
+    "industry": "Manufacturing",
+    "company_size": "51-200",
+    "website": "https://www.bluerobotics.com",
+    "address": {
+      "street": "7479 Park Pl",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97276",
+      "country": "USA"
+    },
+    "status": "Churned",
+    "lead_source": "Cold Call",
+    "deal_value": 88000,
+    "owner": "Taylor Brooks",
+    "tags": [
+      "needs-demo",
+      "budget-approved"
+    ],
+    "linkedin": "https://linkedin.com/in/olivia-smith-931",
+    "created_at": "2025-07-13T16:32:39",
+    "last_contacted": "2026-08-05T16:15",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "c0fe2466",
+        "date": "2026-08-05T16:15",
+        "channel": "Phone",
+        "subject": "Quarterly check-in",
+        "summary": "Usage is up 19% this quarter. Team is happy, exploring more seats.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 29
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Olivia Smith",
+    "first_name": "Olivia",
+    "last_name": "Smith",
+    "email": "olivia.smith@apexfoods.com",
+    "phone": "+1 (311) 869-1323",
+    "mobile": "+1 (250) 906-2897",
+    "role": "Operations Manager",
+    "company": "Apex Foods LLC",
+    "industry": "Food & Beverage",
+    "company_size": "201-1000",
+    "website": "https://www.apexfoods.com",
+    "address": {
+      "street": "6240 Oak Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60680",
+      "country": "USA"
+    },
+    "status": "Qualified",
+    "lead_source": "Trade Show",
+    "deal_value": 179000,
+    "owner": "Alex Rivera",
+    "tags": [
+      "upsell",
+      "decision-maker"
+    ],
+    "linkedin": "https://linkedin.com/in/olivia-smith-778",
+    "created_at": "2024-07-09T16:32:39",
+    "last_contacted": "2025-12-08T10:00",
+    "notes": "",
+    "conversations": [
+      {
+        "id": "74c856b5",
+        "date": "2025-12-08T10:00",
+        "channel": "Meeting",
+        "subject": "Upsell",
+        "summary": "Pitched the premium tier with advanced data syncing features. Will discuss internally.",
+        "sentiment": "positive",
+        "rep": "Alex Rivera",
+        "duration_min": 47
+      }
+    ]
+  }
+]
